@@ -1,0 +1,7 @@
+-c ../third_party/python/requirements.txt
+
+mozilla-taskgraph>=4.0.0
+requests-unixsocket
+taskcluster-taskgraph[orjson,load-image]>=17.2.1
+# Temporarily resolve conflict with myst-parser 2.0.0 in python/sites/docs.txt
+markdown-it-py < 4

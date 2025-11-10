@@ -106,6 +106,7 @@ def get_taskgraph_decision_parser():
     "taskgraph",
     category="ci",
     description="Manipulate TaskCluster task graphs defined in-tree",
+    virtualenv_name="taskgraph",
 )
 def taskgraph_command(command_context):
     """The taskgraph subcommands all relate to the generation of task graphs
